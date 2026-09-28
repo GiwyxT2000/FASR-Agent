@@ -1,0 +1,11 @@
+# Verified with Python 3.10.19 / PyTorch 2.7.1+cu128 (CUDA 12.8).
+#
+# The `--extra-index-url` line below makes pip pull the CUDA build of PyTorch.
+# Drop it if you are installing a CPU-only or a different CUDA build, in which
+# case install torch yourself first and keep the two remaining lines.
+
+--extra-index-url https://download.pytorch.org/whl/cu128
+
+numpy>=1.24
+torch==2.7.1
+sentence-transformers>=3.0.0

@@ -1,0 +1,13 @@
+# Normalise line endings so the repository behaves the same on every platform.
+* text=auto eol=lf
+
+# Data files are compressed and must not be touched by line-ending conversion
+# or diffing.
+*.xz binary
+*.gz binary
+*.npy binary
+
+# Images
+*.png binary
+*.jpg binary
+*.pdf binary
